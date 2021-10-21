@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bottom_sheet_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Avatar"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/josefinsans_bold"/>
+
+    <TextView
+        android:id="@+id/tvGenresTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        android:layout_marginTop="6dp"
+        android:text="@string/genres"
+        android:textSize="14sp"
+        android:textColor="@color/bottom_nav_background"
+        android:fontFamily="@font/josefinsans_medium"/>
+
+    <TextView
+        android:id="@+id/tvGenres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tvGenresTitle"
+        app:layout_constraintTop_toTopOf="@id/tvGenresTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tvGenresTitle"
+        android:layout_marginStart="6dp"
+        tools:text="Drama"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/josefinsans_medium"/>
+
+    <TextView
+        android:id="@+id/tvRuntime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tvGenresTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvGenresTitle"
+        android:layout_marginTop="6dp"
+        android:text="@string/runtime"
+        android:textSize="14sp"
+        android:textColor="@color/bottom_nav_background"
+        android:fontFamily="@font/josefinsans_medium"/>
+
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefinsans_medium"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toBottomOf="@id/tvRuntime"
+        app:layout_constraintStart_toEndOf="@id/tvRuntime"
+        app:layout_constraintTop_toTopOf="@id/tvRuntime"
+        tools:text="124h" />
+
+    <TextView
+        android:id="@+id/tvOverviewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tvRuntime"
+        app:layout_constraintTop_toBottomOf="@id/tvRuntime"
+        android:layout_marginTop="6dp"
+        android:text="@string/overview"
+        android:textSize="14sp"
+        android:textColor="@color/bottom_nav_background"
+        android:fontFamily="@font/josefinsans_medium"/>
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tvOverviewTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvOverviewTitle"
+        android:layout_marginTop="6dp"
+        tools:text="A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion."
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/josefinsans_medium"/>
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        style="@style/MovieButton"
+        android:fontFamily="@font/josefinsans_bold"
+        android:text="@string/buy_ticket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvOverview" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

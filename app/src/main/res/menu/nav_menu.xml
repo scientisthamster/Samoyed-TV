@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/home"
+        android:icon="@drawable/ic_film_roll"
+        android:iconTint="@color/search_background"/>
+
+    <item
+        android:id="@+id/favoriteFragment"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_heart"
+        android:iconTint="@color/search_background"/>
+
+    <item
+        android:id="@+id/findFragment"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        android:iconTint="@color/search_background"/>
+
+</menu>

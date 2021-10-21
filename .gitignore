@@ -1,0 +1,39 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.dex
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Keystore files
+# Uncomment the following lines if you do not want to check your keystore files in.
+*.jks
+*.keystore
+
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab

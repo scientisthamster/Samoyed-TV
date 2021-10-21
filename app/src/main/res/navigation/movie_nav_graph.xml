@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.scientisthamsterssofiandjohn.samoyedtv.view.ui.home.HomeFragment"
+        android:label="SamoyedTV"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.scientisthamsterssofiandjohn.samoyedtv.view.ui.account.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.scientisthamsterssofiandjohn.samoyedtv.view.ui.detail.DetailFragment"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/findFragment"
+        android:name="com.scientisthamsterssofiandjohn.samoyedtv.view.ui.find.FindFragment"
+        android:label="Search Movie"
+        tools:layout="@layout/fragment_find" >
+        <action
+            android:id="@+id/action_findFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.scientisthamsterssofiandjohn.samoyedtv.view.ui.favorite.FavoriteFragment"
+        android:label="Favorite Movie"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/popularFragment"
+        android:name="com.scientisthamsterssofiandjohn.samoyedtv.view.ui.popular.PopularFragment"
+        android:label="Popular Movie"
+        tools:layout="@layout/fragment_popular" >
+        <action
+            android:id="@+id/action_popularFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/topRateFragment"
+        android:name="com.scientisthamsterssofiandjohn.samoyedtv.view.ui.top_rate.TopRateFragment"
+        android:label="Top Rate Movie"
+        tools:layout="@layout/fragment_top_rate" >
+        <action
+            android:id="@+id/action_topRateFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+</navigation>

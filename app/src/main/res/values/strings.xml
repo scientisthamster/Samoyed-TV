@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Samoyed TV</string>
+    <string name="samoyed_tv">Samoyed TV</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">Favorite</string>
+    <string name="save">Save</string>
+    <string name="username">Username</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_your_date_birthday">Enter your date birthday</string>
+    <string name="search">Search</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="runtime">Runtime:</string>
+    <string name="overview">Overview:</string>
+    <string name="buy_ticket">Buy Ticket</string>
+    <string name="genres">Genres:</string>
+    <string name="view_all">View all</string>
+    <string name="release_date">Release date:</string>
+    <string name="_18">18+</string>
+    <string name="actors">Actors</string>
+    <string name="ooopss">Ooopss!!</string>
+    <string name="operational_error_message">There was as error while performing this operation.</string>
+    <string name="connection_error">Something is wrong with your connection, check it out.</string>
+    <string name="empty_error">Apparently there is nothing to show.</string>
+    <string name="retry">Retry</string>
+    <string name="ooops_something_went_wrong">Ooops! Something went wrong.</string>
+    <string name="menu">Menu</string>
+</resources>
